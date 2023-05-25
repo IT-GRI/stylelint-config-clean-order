@@ -25,6 +25,7 @@
     "stylelint-order": "^6.0.2"
   },
   "devDependencies": {
+    "@itgri/stylelint-config-clean-order": "github:IT-GRI/stylelint-config-clean-order",
     "husky": "^8.0.3",
     "stylelint": "^15.6.2"
   },
