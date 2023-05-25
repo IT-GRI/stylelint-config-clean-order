@@ -38,7 +38,7 @@ const config = {
           'after-comment',
           'inside-single-line-block'
         ],
-        severity: 'warning'
+        severity: 'error'
       }
     ],
     'at-rule-empty-line-before': [
@@ -49,7 +49,7 @@ const config = {
           'blockless-after-same-name-blockless',
           'after-comment'
         ],
-        severity: 'warning'
+        severity: 'error'
       }
     ],
     'order/order': [
@@ -79,7 +79,7 @@ const config = {
     'order/properties-order': [
       propertiesOrder,
       {
-        severity: 'warning',
+        severity: 'error',
         unspecified: 'bottomAlphabetical',
         emptyLineBeforeUnspecified: 'always',
         emptyLineMinimumPropertyThreshold: 5
