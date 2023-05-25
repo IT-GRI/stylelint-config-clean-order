@@ -63,6 +63,8 @@ const config = {
         { type: 'at-rule', name: 'custom-media' },
         { type: 'at-rule', name: 'function' },
         { type: 'at-rule', name: 'mixin' },
+        { type: 'at-rule', name: 'extend' },
+        { type: 'at-rule', name: 'include', hasBlock: false },
         'declarations',
         {
           type: 'rule',
@@ -70,6 +72,7 @@ const config = {
           hasBlock: true
         },
         'rules',
+        { type: 'at-rule', name: 'include', hasBlock: true },
         { type: 'at-rule', name: 'media', hasBlock: true }
       ],
       {
